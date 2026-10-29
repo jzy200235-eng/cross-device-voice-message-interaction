@@ -1,0 +1,67 @@
+{
+  "id": "synthetic-demo",
+  "senderName": "虚构项目伙伴",
+  "audioMetadata": {
+    "sender": "虚构项目伙伴 · 合成示例",
+    "audio_duration_sec": 32.19351473922902,
+    "overall_summary": "总摘要：明天下午开项目讨论会，提前阅读材料，并带上一个问题。",
+    "segments": [
+      {
+        "part": 1,
+        "type": "summary",
+        "start_time": 0,
+        "end_time": 6.531428571428571,
+        "duration": 6.531428571428571,
+        "description": "总摘要：明天下午开项目讨论会，提前阅读材料，并带上一个问题。"
+      },
+      {
+        "part": 2,
+        "type": "summary_tts",
+        "start_time": 6.531428571428571,
+        "end_time": 8.446893424036281,
+        "duration": 1.9154648526077098,
+        "description": "重点一，开会时间。"
+      },
+      {
+        "part": 2,
+        "type": "original_audio",
+        "start_time": 8.446893424036281,
+        "end_time": 15.53437641723356,
+        "duration": 7.087482993197279,
+        "description": "我们明天下午三点开一个项目讨论会，预计四十分钟，请提前安排好时间。"
+      },
+      {
+        "part": 3,
+        "type": "summary_tts",
+        "start_time": 15.53437641723356,
+        "end_time": 17.356961451247166,
+        "duration": 1.8225850340136054,
+        "description": "重点二，准备材料。"
+      },
+      {
+        "part": 3,
+        "type": "original_audio",
+        "start_time": 17.356961451247166,
+        "end_time": 23.736190476190476,
+        "duration": 6.379229024943311,
+        "description": "我已经把讨论材料放在共享文件夹里了，开会前请先读一遍第二部分。"
+      },
+      {
+        "part": 4,
+        "type": "summary_tts",
+        "start_time": 23.736190476190476,
+        "end_time": 25.721315192743763,
+        "duration": 1.985124716553288,
+        "description": "重点三，带上问题。"
+      },
+      {
+        "part": 4,
+        "type": "original_audio",
+        "start_time": 25.721315192743763,
+        "end_time": 32.19351473922902,
+        "duration": 6.47219954648526,
+        "description": "每个人准备一个最想讨论的问题，我们先交流问题，再决定下一步的分工。"
+      }
+    ]
+  }
+}
