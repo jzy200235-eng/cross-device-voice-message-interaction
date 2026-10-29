@@ -1,15 +1,12 @@
 # 文件清单
 
-- `site/`：连续作品集页面、两段视频与静态交互体验。
-- `demo-source/`：参照Demo源码、合成消息与语音。
-- `engineering/`：1.0网页、服务、串口桥接与AI分段摘要主链路。
-- `docs/`：研究、工作流、复现与材料来源说明。
-
-未包含论文全文、专利交底书、真实研究数据、账号与访问凭证。
+`site/`为展示与静态体验，`demo-source/`为体验源码，`engineering/`为1.0主链路与原分析脚本，`analysis/`为新增聚合复核工具和结果，`docs/`记录研究与运行边界。原始消息、研究录音、账号和密钥不公开。
 
 - `.gitignore`
 - `.nojekyll`
 - `README.md`
+- `analysis/audit_message_types.py`
+- `analysis/message-type-aggregate.json`
 - `demo-source/README.md`
 - `demo-source/package.json`
 - `demo-source/public/index.html`
@@ -20,14 +17,21 @@
 - `demo-source/src/index.js`
 - `demo-source/src/review.css`
 - `docs/implementation.md`
+- `docs/message-types-and-data.md`
 - `docs/presentation-sources.md`
 - `docs/research-status.md`
 - `docs/storyboard.md`
 - `docs/workflow-and-hardware.md`
 - `engineering/.env.example`
 - `engineering/README.md`
+- `engineering/Voice_Summary_Project/check_data.py`
+- `engineering/Voice_Summary_Project/classifier/inference.py`
+- `engineering/Voice_Summary_Project/classifier/train_msg_type.py`
+- `engineering/Voice_Summary_Project/compare_models.py`
+- `engineering/Voice_Summary_Project/convert_data.py`
 - `engineering/Voice_Summary_Project/requirements_api.txt`
 - `engineering/Voice_Summary_Project/segment_pipeline.py`
+- `engineering/Voice_Summary_Project/summarizer/evaluate_quality.py`
 - `engineering/Voice_Summary_Project/summarizer/prompts.py`
 - `engineering/Voice_Summary_Project/summarizer/segmenter.py`
 - `engineering/web-last/audio-combiner.py`
