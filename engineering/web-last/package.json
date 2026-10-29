@@ -1,0 +1,49 @@
+{
+  "name": "web-chat-app",
+  "version": "1.0.0",
+  "description": "Web聊天应用 - 基于SummaEase项目的聊天功能",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "import-data": "node import-data.js import",
+    "clear-data": "node import-data.js clear",
+    "serial": "node serial-listener.js",
+    "dev-with-hardware": "concurrently \"npm run server\" \"npm run client\" \"npm run serial\"",
+    "dev-no-hardware": "ENABLE_SERIAL=false concurrently \"npm run server\" \"npm run client\" \"npm run serial\"",
+    "monitor": "node serial-monitor.js",
+    "monitor:list": "node -e \"require('serialport').SerialPort.list().then(ps=>ps.forEach(p=>console.log(p.path, p.friendlyName||p.manufacturer||'')))\"",
+    "logger": "node slide-data-logger.js",
+    "test-continuous": "node test-continuous-system.js"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "chat",
+    "websocket",
+    "real-time",
+    "summarization",
+    "voice"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}
