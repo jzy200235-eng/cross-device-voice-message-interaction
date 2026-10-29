@@ -1,0 +1,39 @@
+{
+  "note": "Aggregate engineering-file audit added for this repository, not study participant counts or classification accuracy. Raw message provenance remains unverified.",
+  "annotation_csv": {
+    "records": 1000,
+    "category_counts": {
+      "notice": 337,
+      "task": 335,
+      "chitchat": 328
+    },
+    "unique_ids": 1000,
+    "unique_nonempty_clean_texts": 805,
+    "empty_clean_texts": 0,
+    "populated_references": 1000
+  },
+  "labels_jsonl": {
+    "records": 1000,
+    "category_counts": {
+      "notice": 337,
+      "task": 335,
+      "chitchat": 328
+    },
+    "unique_ids": 1000,
+    "unique_nonempty_clean_texts": 805,
+    "empty_clean_texts": 0,
+    "populated_references": 1000
+  },
+  "comparison_csv": {
+    "records": 54,
+    "category_counts": {
+      "task": 18,
+      "chitchat": 18,
+      "notice": 18
+    },
+    "unique_ids": 54,
+    "unique_nonempty_clean_texts": 54,
+    "empty_clean_texts": 0,
+    "populated_references": 0
+  }
+}
