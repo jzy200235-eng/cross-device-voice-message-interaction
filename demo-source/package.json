@@ -1,0 +1,20 @@
+{
+  "name": "swipenodes-reference-demo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.0.7",
+    "react-icons": "^4.10.1"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "homepage": "."
+}
